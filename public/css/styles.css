@@ -1,0 +1,98 @@
+#login{
+    background: linear-gradient(120deg, #4c79d3 44.9%, white 45%) no-repeat fixed ;
+}
+#app{
+    background: linear-gradient(120deg, white 44.9%, #4c79d3 45%) no-repeat fixed ;
+}
+header{
+    border-bottom: 1px solid #bebcbc; 
+    padding: 5px;
+    background-color: white;
+}
+.color-primary{
+    color: #4e0070;
+}
+.color-secondary{
+    color: #4c79d3;
+}
+
+.icon-detail{
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.text-login{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.carteira{
+    position: relative;
+    left: 95px;
+}
+
+.coins{
+    position: relative;
+    top: 125px;
+    left: 100px;
+}
+.botton-login{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: white;
+    width: 50%;
+    margin: 0 25% ;
+}
+.botton-login:hover{
+    background-color: #4c79d3;
+    color: white;
+}
+.botton-ver-mais{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: white;
+}
+.botton-ver-mais:hover{
+    background-color: #4c79d3;
+    color: white;
+}
+.botton-cancel{
+    border-radius: 10px;
+}
+.button-float{
+    border-radius: 100%; /*todo redondo*/
+    width: 60px;
+    height: 60px;
+    position: fixed; /* caso tiver muitos registros o botao continua fixo em baixo mesmo rolando a tela*/
+    padding: 0 !important; /* para o mais ficar no centro do botao */
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 35px;
+    border: 2px solid #4e0070;
+    background-color: #4e0070;
+    color: white;
+}
+.button-float:hover{
+    border: 2px solid #4e0070;
+    background-color: white;
+    color: #4e0070;
+}
+.link{
+    color: #4e0070;
+    cursor: pointer;
+}
+.link:hover{
+    color: #4c79d3;
+}
+.info{
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 0px ; /* so ná parte de cima */
+
+}
+.logout{
+    min-width: 5rem !important;
+}
+.menu{
+    margin-right: 20px;
+}

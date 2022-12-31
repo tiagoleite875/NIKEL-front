@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Nikel</title>
+</head>
+
+<body id="login">
+    <main>
+        <div class="container">
+            <div class="row vh-100 ">
+                <div class="col d-flex justify-content-center flex-column my-5">
+                    <div class="text-login">
+                        <p>Organize suas finanças de forma facil.</p>
+                        <P>Controle seu dinheiro e investimentos.</P>
+                        <P>Economize e atinja seus objetivos.</P>
+                    </div>
+                    <div class="text-center">
+                        <img src="./images/pocket.png" class="img-fluid carteira" alt="" srcset="">
+                        <img src="./images/coins.png" class="img-fluid d-none d-md-inline coins" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center flex-column my-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col text-center">
+                                <div>
+                                    <img src="./images/nikel-logo.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <form id="login-form">
+                                        <div class="mb-3">
+                                            <label for="login-email" class="form-label">E-mail</label>
+                                            <input type="email" class="form-control" id="login-email"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">Ultilize seu e-mail para realizar o
+                                                login.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="login-password" class="form-label">Senha</label>
+                                            <input type="password" class="form-control" id="login-password">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="session-check">
+                                            <label class="form-check-label" for="session-chec">Permanecer
+                                                logado</label>
+                                        </div>
+                                        <button type="submit" class="btn botton-login">Entrar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center mt-2">
+                                <p id="link-conta" class="form-text">Ainda não tem conta? <span class="link" data-bs-toggle="modal"
+                                        data-bs-target="#register-modal">Criar uma conta.</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center mt-5">
+                                <div>
+                                    <img src="./images/codai-logo.png" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <img src="./images/growdev-logo.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Crie sua conta</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form id="create-form">
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="create-email-input" class="form-label">E-mail</label> <!--required serve para dizer que é um campo obrigatótio-->
+                                <input type="email" class="form-control" id="create-email-input" required
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Ultilize seu e-mail para criar a conta.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password-email-input" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="create-password-input" required
+                                    aria-describedby="passwordHelp">
+                                <div id="passwordHelp" class="form-text">Ultilize uma senha facil de lembrar e anote
+                                    para não esquecer</div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary botton-cancel"
+                                data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn botton-ver-mais">Criar conta</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>     
+</body>
+
+</html>
