@@ -1,4 +1,4 @@
-const myModal = new bootstrap.Modal("#register-modal");
+
 //os botoes cancelar e abrir conta sao da modal, por isso a referencia é essa 
 
 //sera usado para a function checkLogged
